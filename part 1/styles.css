@@ -105,21 +105,15 @@ nav li {
 
 section {
     display: flex;
-    display: flex;
     flex-flow: row wrap;
-    justify-content: stretch;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 article {
     flex: 1;
     color: #ccc;
 }
-
-/*article h2{
-    
-    color: #ccc;
-    
-}*/
 
 article:hover{
     box-shadow: 5px 0px 25px black;
@@ -165,6 +159,10 @@ footer div {
     font-weight: bold;
     color: #ccc;
     
+}
+
+.request-agent {
+    padding-top: 20px;
 }
 
 .request-agent .btn {
@@ -254,7 +252,45 @@ footer div {
     transform: translateY(-5px);
 }
 
-/* Optional: Add hover effect to SVG icon */
+
 .inline-text:hover svg {
     fill: #0056b3;
+}
+
+
+
+.read-more .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more .btn:hover {
+    background-color: #45a049;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    fill: #007bff;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.icon-container span {
+    font-size: 18px;
+    color: #ccc;
 }
