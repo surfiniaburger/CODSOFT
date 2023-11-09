@@ -5,11 +5,11 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #010301;
 }
 
 .container {
-    background-color: #fff;
+    background-color: #860b0b;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     padding: 20px;
