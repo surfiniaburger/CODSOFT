@@ -1,123 +1,73 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Landing Page</title>
-        <meta name="description" content="A job landing page">
-        <meta name="author" content="Adedoyinsola ogungbesan">
-         
-        <!--CSS File-->
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    </head>
-
-    <body>
-        <header>
-            <div class="top-bar">
-                <div class="social-icons">
-                    <!-- Social media icons go here -->
-                </div>
-                <nav>
-                    <!-- Your navigation menu goes here -->
-                </nav>
-                <div class="search-bar">
-                    <input type="text" id="search-input" placeholder="Search...">
-                </div>
-                <div class="landing-page-text">
-                    Landing Page
-                </div>
-                <div class="request-agent">
-                    <a href="#" class="btn">Request an Agent</a>
-                </div>
-            </div>
-        </header>
-
-        <div class="top-bar">
-            <div class="contact-info">
-                <span class="email">Email: your.email@example.com</span>
-            </div>
-            <div class="request-agent">
-                <a href="#" class="btn">Request an Agent</a>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adedoyinsola Ogungbesan - Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Adedoyinsola Ogungbesan</h1>
+            <p>Web Developer</p>
         </div>
-        
-
-        <div class="social-icons">
-            <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.pinterest.com" target="_blank" class="social-icon"><i class="fab fa-pinterest"></i></a>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="https://media.licdn.com/dms/image/D4D03AQFEfbP5BOTi2w/profile-displayphoto-shrink_800_800/0/1686218563954?e=2147483647&v=beta&t=ZMdMtwgZsdY9UgVaiqsrZSUaKRz09Z_x6AI3z1n0hxk"  alt="Adedoyinsola Ogungbesan" width="100px">
+            <p>Entry-level BI & Software development professional seeking a full-time role in BI/Developer. Recently completed Meta Front-End and Back-End Professional Certificate — a sixteen-month Developer program that covers React; Django Web framework; advanced HTML and CSS; interpreting data in different ways to fit the problem at hand; and creating personas, writing test cases, testing APIs with Insomnia, creating wireframes and high fidelity prototypes with Figma and other tools in line with industries best practices.</p>
         </div>
-
-        <nav>
+    </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="menu.html">Blog</a></li>
-              <li><a href="nursery.html">Page</a></li>
-              <li><a href="about.html">Services</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="buy-now.html">Buy Now</a></li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Responsive Web Design</li>
             </ul>
-
-            <div id="search-bar">
-                <input type="text" id="search-input" placeholder="Search...">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M11.742 10.344a5.5 5.5 0 1 0-1.397 1.397h-.001a.5.5 0 0 0 .798-.603l-.867-1.3a.5.5 0 0 0-.456-.254H10a6 6 0 1 0 1.743-1.742v.001a.5.5 0 0 0-.603.798l1.3.867a.5.5 0 0 0 .254.456h.001zM6 11a5 5 0 1 1 0-10 5 5 0 0 1 0 10z" />
-                </svg>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Front-End Developer Certificate</h3>
+                <p>My capstone project for META Front-End Developer Professional certification involved building a Little Lemon Restaurant Web application using React and CSS. First, we created a low-fidelity wireframe for the Restaurant’s Homepage using Figma. The homepage includes three sections: Header, Main, and Footer. Next, we populated the static HTML index file found in the public folder of the react app template with Meta tags and open graph protocols. We created a folder to contain all the components of the React app. Used Javascript unit tests library to check that the app was bug-free. Using CSS, we styled the homepage wireframe. Also ensured the application was responsive on all platforms by using flex properties.</p>
             </div>
-        </nav>
-
-        <main>
-            <section>
-                <article>
-                    <h1>Your Heart is our Loam</h1>
-                    <p>
-                        Based in Tuscon, Arizona, we are a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping.
-                    </p>
-                    <img class="item1" src="https://canadianfoodfocus.org/wp-content/uploads/2020/04/plant-vegetable-garden.jpg" alt="Sample image">
-                    
-                    
-                </article>
-            </section>
-
-            <section>
-                <article>
-                    <h2>Indoors</h2>
-                    <a href="indoor.html"><p>Find out more...</p></a>
-                    <img class="item" src="https://www.thespruce.com/thmb/-WnkgPYP9QW-3Axu5AYqNGYPJQk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/indoor-gardening-beginner-guide-5199347-hero-3ddcdb1a1ca044fdb0c8068c3974ea0e.jpg" alt="Sample image" style="width: 240px; height: 180px;">
-                </article>
-            
-                <article>
-                    <h2>The great outdoors</h2>
-                    <a href="outdoor.html"><p>Find out more...</p></a>
-                    <img class="item" src="https://d1e00ek4ebabms.cloudfront.net/production/3c76d1c8-86fc-473f-a6b8-a618c1d9f2b6.png" alt="Sample image" style="width: 240px; height: 180px;">
-                </article>
-
-                <article>
-                    <h2>Out of the box</h2>
-                    <a href="outofthebox.html"><p>Find out more...</p></a>
-                    <img class="item" src="https://cdn.britannica.com/42/91642-050-332E5C66/Keukenhof-Gardens-Lisse-Netherlands.jpg" alt="Sample image" style="width: 240px; height: 180px;">
-                </article>
-
-            </section>
-        </main>
-
-        <footer>
-            <div>
-                <img src="https://media.licdn.com/dms/image/D4D03AQFEfbP5BOTi2w/profile-displayphoto-shrink_800_800/0/1686218563954?e=2147483647&v=beta&t=ZMdMtwgZsdY9UgVaiqsrZSUaKRz09Z_x6AI3z1n0hxk" width="20px">
+            <div class="project">
+                <h3> Back-End Developer Certificate</h3>
+                <p>My capstone project for META Back-End Developer Professional certification involved setting up my working directory in a virtual environment. Django Library to create the Little Lemon Project and the Restaurant App. MySQL client library, project configuration for the MySQL database. Django Rest Framework’s browsable API to perform CRUD operations on menu and reservation models. Djoser Library, to handle user authentication and registration. Insomnia, to test the API endpoints. Django’s testing Framework to write the unit tests for testing the models and views.</p>
             </div>
-
-            <div>
-                <p>Copyright Adedoyinsola</p>
-            </div>
-        </footer>
-
-    </body>
+        </div>
+    </section>
+    
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p><a href="https://docs.google.com/document/d/1s8ajYZXRo8yWam3cRUQRyTF8i1lDeraAiHJVeItOpvE/edit?usp=sharing" target="_blank">Download Resume (PDF)</a></p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: jdmasciano2@gmail.com</p>
+            <p>Phone: +2347056547253</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Adedoyinsola Ogungbesan. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
