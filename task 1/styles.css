@@ -124,6 +124,7 @@ article:hover{
 }
 footer {
     display: flex;
+    color: #ccc;
 
     
 }
@@ -281,6 +282,7 @@ footer div {
     border-radius: 10px;
     background-color: #0056b3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
 }
 
 .icon {
@@ -293,4 +295,19 @@ footer div {
 .icon-container span {
     font-size: 18px;
     color: #ccc;
+}
+
+
+
+.icon-container .btn:hover {
+    background-color: #45a049;
+}
+
+.icon-container .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
