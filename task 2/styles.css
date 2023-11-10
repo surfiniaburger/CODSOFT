@@ -46,3 +46,7 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+.container img{
+    border-radius: 50%;
+}
